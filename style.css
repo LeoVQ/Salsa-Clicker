@@ -1,0 +1,132 @@
+.sectionLeft {
+    float: left;
+    width: 40%;
+}
+
+.plus {
+    float: left;
+    width: 15%;
+    height: 594px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section {
+    float: left;
+    width: 15%;
+    height: 169px;
+    background-color: rgb(238, 238, 238, 0.5);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sectionRight {
+    float: right;
+    width: 30%;
+}
+
+.scoreContainer {
+    background-color: rgb(238, 238, 238, 0.5);
+    width: 69%;
+    padding: 9.999999999px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*.clickerContainer img {
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.clickerContainer img:hover {transform: scale(1.09); cursor: pointer;}
+.clickerContainer img:active {transform: scale(1.03); }*/
+
+#clicker {
+    background-image: url(example.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all .2s ease-in-out;
+    height: 300px;
+    width: 300px;
+}
+
+#clicker:hover {transform: scale(1.04); cursor: pointer;}
+#clicker:active {transform: scale(1.0111111); cursor: pointer;}
+
+#clicker > .number {
+    z-index: 99;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: absolute;
+}
+
+.shopButton {
+    background-color: #b5b5b5;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.shopButton:hover {
+    background-color: #c7c7c7;
+    transition: all .2s ease-in-out; cursor: pointer;
+}
+
+.shopButton #image {
+    width: 10%;
+}
+
+.shopButton img {
+    height: 64px;
+    width: 64px;
+}
+
+.shopButton #nameAndCost p {
+    margin: 0px;
+    width: 82%;
+    text-align: left;
+}
+
+.shopButton #nameAndCost p:first-of-type {
+    font-size: 24px;
+}
+
+.shopButton #amount {
+    font-size: 48px;
+    color: #595959;
+    font-family: roboto;
+    width: 8%;
+}
+
+.u {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -moz-user-drag: none;
+    -ms-user-select: none;
+    -ms-user-drag: none;
+    user-select: none;
+}
+
+.u img {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -moz-user-drag: none;
+    -ms-user-select: none;
+    -ms-user-drag: none;
+    user-select: none;
+}
+
+#upgradeContainer img {
+    height: 64px;
+    width: 64px;
+}
+#upgradeContainer img:hover {cursor: pointer;} #achievementContainer img:hover{cursor: pointer ! important;}
+#achievementContainer img {
+    height: 64px;
+    width: 64px;
+}
