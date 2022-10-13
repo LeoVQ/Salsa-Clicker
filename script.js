@@ -415,14 +415,14 @@ setInterval(function () {
 }, 30000);
 
 document.addEventListener("keydown", function (event){
-    if (event.ctrlKey && event.which == 83) {
+    if (event.ctrlKey && event.key === 's') {
         event.preventDefault();
         saveGame();
     }
 }, false);
 
 document.addEventListener("keydown", function (event) {
-    if (event.ctrlKey && event.which == 84) {
+    if (event.ctrlKey && event.key === 'r') {
         resetGame();
     }
 }, false);
